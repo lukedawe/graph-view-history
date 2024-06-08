@@ -12,7 +12,7 @@
     "content_scripts": [
       {
         "matches": ["*://*.mozilla.org/*"],
-        "js": ["graph_view.js"]
+        "js": ["build/graph_view.js"]
       }
     ]
   }
